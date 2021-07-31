@@ -3,6 +3,13 @@
 
 
 
+/*
+    TODO - move cloned data with Arc or based on Clone trait and mpsc protocol between tokio threads inside the async task using  Rc, Arc, Mutex, RefCell, Rc::weak, RwLock
+    TODO - map, filter, collect, into_inner, foldtraits, macros, if let Some and async benchmark
+*/
+
+
+
 
 use crate::handlers::db::pg::establish as pg;
 use r2d2_postgres::postgres::Row;
