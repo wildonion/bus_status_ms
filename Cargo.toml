@@ -1,0 +1,32 @@
+[package]
+name = "reports"
+version = "0.1.0"
+authors = ["wildonion <marefimoghaddam@unixerr.com>"]
+edition = "2018"
+
+
+
+[dependencies]
+tokio = { version = "1.7.0", features = ["full"]  }
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
+chrono = {version="0.4",features = ["serde"]}
+actix-codec = "0.4"
+actix-web = "3"
+actix-web-actors = "3.0.0"
+actix = "0.12.0"
+serde = "1.0.125"
+serde_json = "1.0.64"
+log = "0.4.14"
+dotenv = "0.15.0"
+env_logger = "0.8.3"
+listenfd = "0.3.3"
+r2d2 = "0.8.9"
+r2d2_postgres = "0.18.0"
+hex = "0.4.3"
+futures = "0.3"
+actix-cors = "0.2.0"
+
+
+[[bin]]
+name = "reports"
+path = "src/main.rs"
