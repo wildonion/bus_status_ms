@@ -6,16 +6,6 @@
 
 
 
-// -------------------------------------------------------------------------------------
-// NOTE - on VPS, before build : sudo chmod 777 NAME_OF_PROJECT_FOLDER/
-// NOTE - cargo install cargo-watch
-// build it => cargo build --bin reports --release
-// watch it => cargo watch -x run
-// EXAMPLE - http://localhost:7366/avl/api/reports/status/166/2021-04-12T00:00:00+06:00/2021-05-12T23:59:59+06:00
-// -------------------------------------------------------------------------------------
-
-
-
 
 mod entities;
 mod handlers;
